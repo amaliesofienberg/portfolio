@@ -1,0 +1,45 @@
+/*
+ Theme Name:   astra Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  astra Child Theme
+ Author:       Amalie Sofienberg
+ Author URI:   http://example.com
+ Template:     astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyfifteenchild, logo centered
+*/
+
+/* Ændrer margin-top grundet min sticky header */
+body {
+   background: white !important;
+ margin-top: 150px;
+}
+
+/* Laver fixed/sticky header */
+header {
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+}
+
+/* Ændrer overskrift fra capitalize til uppercase */
+h1.elementor-heading-title.elementor-size-default {
+  text-transform: uppercase !important;
+}
+
+/* Ændrer tekstfarven på span på forsiden, eftersom man ikke kunne ændre den i Elementor */
+span {
+  color: #182F53 !important;
+}
+
+/*Ændrer tekstfarven på span-knapperne */
+span.elementor-button-text {
+ 	color: white !important;
+}
+
+button.menu-toggle.main-header-menu-toggle.ast-mobile-menu-trigger-outline {
+  border-color: none !important;
+}
